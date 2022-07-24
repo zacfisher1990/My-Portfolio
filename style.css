@@ -57,6 +57,23 @@ article p {
     font-weight: bold;
 }
 
+article ul {
+    list-style: none;
+    display: inline;
+}
+
+article img {
+    height: 250px;
+    width: 400px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+article img:hover {
+    border-color: red;
+}
+
 
 /* The sidebar menu */
 aside {
