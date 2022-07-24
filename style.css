@@ -1,0 +1,137 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {  
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-image: url("https://images.unsplash.com/photo-1548217395-6c6095abb49c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+    border-color:#fff;
+    border-width: 3px;
+    border-style: solid;
+}
+
+
+picture {
+    margin-left: 200px;
+    height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1548217395-6c6095abb49c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    background-size: cover;
+    background-position: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fff;
+}
+    
+main {
+    margin-left: 200px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fff;
+    flex-wrap: wrap;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNl61ezRW6ESZ_LosrPVJ5nZZEf-jsItzqyeb5dPGTHqtP3GcNzUpejlHyT8QDfnLo7WE&usqp=CAU);
+    background-size: cover;
+    background-image: center;
+}
+
+article {
+    background-color: #fff;
+    margin: 2%;
+}
+article h2 {
+    text-align: left;
+    margin-left: 1%;
+}
+
+article p {
+    margin: 1%;
+    font-weight: bold;
+}
+
+
+/* The sidebar menu */
+aside {
+    height: 100%; 
+    width: 200px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNl61ezRW6ESZ_LosrPVJ5nZZEf-jsItzqyeb5dPGTHqtP3GcNzUpejlHyT8QDfnLo7WE&usqp=CAU);
+    background-size: cover;
+    background-image: center;
+    overflow-x: hidden; 
+    padding-top: 20px;
+   ;
+  }
+
+aside img {
+    width: 175px;
+    height: 175px;
+    margin-left: 8px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 3px;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+aside p {
+    font-weight: bold;
+    text-align: center;
+}
+  
+  /* The navigation menu links */
+  
+aside nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+aside nav a:hover {
+    color:gray;
+}
+
+
+
+
+  /* When you mouse over the navigation links, change their color */
+aside a:hover {
+    color: gray;
+}
+  
+  /* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+  
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    aside {padding-top: 15px;}
+    aside a {font-size: 18px;}
+}
+
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
