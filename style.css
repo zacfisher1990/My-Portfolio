@@ -21,13 +21,14 @@ header {
     border-style: solid;
 }
 
+/* image of mountains */
 
 picture {
     margin-left: 200px;
     height: 500px;
-    background-image: url("https://images.unsplash.com/photo-1548217395-6c6095abb49c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    background-image: url("https://epod.usra.edu/.a/6a0105371bb32c970b0133eee7d763970b-pi");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     border-style: solid;
     border-width: 3px;
     border-color: #fff;
@@ -58,33 +59,33 @@ article p {
     font-weight: bold;
 }
 
-
-
+/* remove bullets from work list */
 .project-list ul {
     list-style: none;
 }
-.project-list ul li {
-    display: inline;
-}
 
+/* size and border for image links */
 .project-list img {
     height: 250px;
     width: 400px;
     border-style: solid;
     border-width: 3px;
     border-color: black;
+    
 }
-
+/* hover effects */
 .project-list img:hover {
     border-color: red;
     box-shadow: 3px 3px 5px gray;
+    filter: sepia(30%);
 }
 
+/* first application that's larger than the others */
 #recent-project {
     height: 375px;
     width: 600px;
-    
 }
+
 
 .contact-info {
     font-weight: bold;
@@ -106,6 +107,7 @@ aside {
    ;
   }
 
+  /* makes photo round and have border */
 aside img {
     width: 175px;
     height: 175px;
@@ -159,14 +161,14 @@ span {
     font-weight: bold;
 }
   
-/* On smaller screens, where height is less than 450px, change the style of the sidebar */
+/* changes style of side bar on smaller screans */
 @media screen and (max-height: 450px) {
-    aside {padding-top: 15px;}
-    aside a {font-size: 18px;}
+    body {padding-top: 15px;}
+    body {font-size: 18px;}
 }
 
 @media screen and (max-width: 768px) {
-    header {
+    body {
       flex-direction: column;
     }
   }
